@@ -45,8 +45,7 @@ public class Cliente {
                " | Peso: " + peso + "kg" +"\n"+
                " | Temp: " + temperatura + "°C" +"\n"+
                " | Material: " + materialContenedor+"\n"+
-               " | Cliente: " + tipoCliente+"\n"+
-               " | Costo: " +  calcularCostoBase +"\n";
+               " | Cliente: " + tipoCliente+"\n";
                
         
         
