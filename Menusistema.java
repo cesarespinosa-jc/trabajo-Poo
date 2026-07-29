@@ -38,7 +38,8 @@ public class Menusistema {
               
              System.out.println("----Menu----");
              System.out.println("1.Registrar producto");
-             System.out.println("2.Consultar historial");  
+             System.out.println("2.Consultar historial");
+              System.out.println("3.salir..."); 
              menu = sc.nextInt();
              
              
@@ -62,6 +63,12 @@ public class Menusistema {
                  }
                  break;
         
+                 }
+                       
+                case 3 ->{ System.out.println("saliendo....");
+                 
+                 return;
+                 
                  }
                  
                  
